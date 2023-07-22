@@ -1,0 +1,63 @@
+.container {
+    width: 52.08vw;
+    height: 248px;
+    padding: 30px;
+    background-color: white;
+    margin-bottom:176px;
+    .titulo {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    hr {
+        margin: 20px 0;
+
+    }
+
+    .total {
+        display: flex;
+        justify-content: space-between;
+
+        .tituloTotal {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 34px;
+            color: #1F1F1F;
+        }
+
+        .divValor {
+            margin-bottom: 20px;
+
+            .valor {
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 34px;
+                color: #EE4266;
+                text-align: end;
+            }
+
+            .parcelamento {
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 22px;
+                color: #8F8F8F;
+            }
+        }
+    }
+}
+
+@media (max-width:900px) {
+    .container {
+        width: 100vw;
+        height: 176px;
+        .titulo {
+            display: none;
+            
+        }
+        hr{
+            display: none;
+        }
+    }
+
+}

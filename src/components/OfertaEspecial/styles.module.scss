@@ -1,0 +1,113 @@
+
+.ofertaEspecialContainer{
+    height:553px;
+    width:100vw;
+   display: flex;
+   justify-content: center; 
+   
+    .imagemContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 39.54vw;
+        height:466px;
+        padding-left: 0 4.28vw 0 3.58vw ;
+        .elipse{
+            position: absolute;
+            left:8.95vw;
+        }
+        .tenis{
+           position: absolute;
+           left:3.61vw;
+        }
+    }
+    .textoContainer{
+        width:589px;
+        display: flex;
+        flex-direction: column;
+    
+        span{
+            margin:0px;
+            padding:0px;
+            color: #C92071;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 22px;
+            margin-top: 106px;
+        }
+        h2{
+            color: #474747;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 50px;
+            height:100px;
+            width: 514px;
+            white-space: wrap;
+            margin-top: 17px;
+            margin-bottom: 0;
+        }
+        p{
+          width:40.902vw;  
+          font-weight: 400;
+          font-size:1.1111vw;
+          line-height: 28px;
+          color: #474747;
+          margin-top: 20px;
+        }
+
+    }
+
+}
+@media screen and (max-width:900px){
+    .ofertaEspecialContainer{
+       //margin-top: 40.13vw;
+       background-color: white;
+        display:flex;
+        flex-direction:column;
+        height:186vw;
+        .imagemContainer{
+            height:92.53vw;
+            width:100vw;
+            .tenis{
+                margin-top:11.2vw;
+                width:80.26vw;
+                 
+            }
+            .elipse{
+                margin-top:10.66vw;
+                margin-left:5vw  ;
+                width:74.66vw;
+            }
+        }
+        .textoContainer{
+            width:100vw;
+            padding-left: 5.33vw;
+            
+            span{
+                font-size: 3.73vw;
+                color:#F6AA1C;
+                margin-top: 0;
+            }
+            h2{
+                width:70vw;
+                font-size: 7.46vw;
+                height: 19.2vw;
+                font-weight: 700;
+                line-height: 9.6vw;
+                
+                margin-top: 2.6666vw;
+            }
+            p{
+                font-size: 3.73vw;
+                font-weight: 500;
+                width:89.33vw;
+                margin-top: 5.3333vw;
+                margin-bottom: 8vw;
+            }
+            .botao{
+              margin-bottom: 13.33vw;
+                
+            }
+        }
+    }
+}
